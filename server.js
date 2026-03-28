@@ -34,6 +34,7 @@ Focus on cognitive reframing, not willpower. Be human, not clinical. Do not use 
     });
 
     const data = await response.json();
+    console.log("Gemini raw response:", JSON.stringify(data, null, 2));
     const reframe = data.candidates?.[0]?.content?.parts?.[0]?.text
       || "That urge is real, and so is your strength in pausing right now. Take three slow breaths — the urge will peak and pass, just like a wave.";
 

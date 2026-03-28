@@ -246,3 +246,5 @@ function escapeHtml(str) {
 
 // ===== INIT =====
 updateStreak();
+renderHistory();
+renderDashboard();
