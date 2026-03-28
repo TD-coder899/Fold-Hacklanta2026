@@ -1,0 +1,7 @@
+\{
+    "builder.serverUrl": "https://github.com/TD-coder899/Fold-Hacklanta2026.git",
+    "builder.command": "",
+    "builder.runDevServer": false,
+    "builder.autoDetectDevServer": true,
+    "builder.launchType": "editor"
+}
